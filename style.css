@@ -25,7 +25,7 @@ body {
   font-family: Inter;
   font-size: 20px;
 }
-.grey-text-left {
+.grey-text-center {
   text-align: center;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
@@ -211,6 +211,74 @@ main {
   height: 140px;
   margin-top: 40px;
 }
-.best-left{
-  margin-left:60px;
+.best-left {
+  margin-left: 60px;
+}
+
+/* Holidays Sale Section */
+.holiday-sale {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 1200px;
+  height: auto;
+  border-radius: 16px;
+}
+.holiday-sub-title {
+  color: #070211;
+  font-family: Inter;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-title {
+  color: #070211;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-red {
+  color: red;
+}
+.holiday-sale-div-img {
+  position: relative;
+  margin-top: 80px;
+  width: 1200px;
+  height: auto;
+}
+.holiday-sale-div-img div{
+  position: absolute;
+}
+.holiday-img1 {
+  width: 206px;
+height: 206px;
+}
+.holiday-img2 {
+  width: 500px;
+}
+.holiday-img3 {
+  width: 429px;
+  height: 433px;
+  border-radius: 16px 16px 0px 0px;
+}
+.holiday-img4 {
+  width: 1200px;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+}
+.holiday-img1-div{
+  right: 320px;
+  bottom: -350px;
+  z-index: 5;
+}
+.holiday-img2-div{
+  bottom:-600px;
+  left: 100px;
+  z-index: 10;
+}
+.holiday-img3-div{
+right:0px;
+}
+.holiday-img4-div{
+  bottom: -650px;
 }
