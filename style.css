@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Merriweather;
+}
+/* header style starts */
+
+.banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  border-radius: 16px;
+  margin: 30px auto;
+}
+.banner-text {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 130px;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* main style starts here  */
+main {
+  width: 1200px;
+  margin: auto;
+}
+
+/* categories style */
+.categories {
+  margin-top: 120px;
+}
+.categories-content-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.categories-content-text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.categories-h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.categories-img img {
+  width: 800px;
+  height: 500px;
+  display: block;
+  margin: 48px auto;
+}
+
+/* midnight party section */
+.midnight-party {
+  margin-top: 120px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  border-radius: 16px;
+}
+.midnight-party-div {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+}
+.midnight-party-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.midnight-party-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.midnigt-party-img img {
+  width: 280px;
+  padding: 48px 0;
+}
+.midnight-party-content button {
+  color: #fff;
+  background-color: rgb(209, 77, 15);
+  border-radius: 7px;
+  margin: 30px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
