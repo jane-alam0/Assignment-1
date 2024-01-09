@@ -19,6 +19,11 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  transition: .3s;
+}
+.btn:hover{
+  background-color: chocolate;
+  color: black;
 }
 .section-title {
   color: #070211;
