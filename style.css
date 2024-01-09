@@ -214,6 +214,7 @@ main {
 }
 .best-left {
   margin-left: 60px;
+  margin-top: 80px;
 }
 
 /* Holidays Sale Section */
@@ -371,6 +372,7 @@ main {
 /* footer section style  */
 footer {
   width: 100%;
+  margin: auto;
   height: 609px;
   background-color: #070211;
 }
